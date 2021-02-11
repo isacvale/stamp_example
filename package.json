@@ -4,12 +4,12 @@
   },
   "name": "stamp_example",
   "version": "0.1.0",
-  "description": "\"An example of the use of Stamp for componentization.\"",
+  "description": "An example of the use of Stamp for componentization.",
   "main": "main.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "netlify": "rm -rf dist && mkdir dist && rsync -rv * dist --exclude ./dist"
+    "netlify": "npm install && rm -rf dist && mkdir dist && rsync -rv * dist --exclude ./dist"
   },
   "keywords": [
     "stamp",
