@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@dvo/stamp": "^0.1.2"
+  },
+  "name": "stamp_example",
+  "version": "0.1.0",
+  "description": "\"An example of the use of Stamp for componentization.\"",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stamp",
+    "componentization"
+  ],
+  "author": "isacvale",
+  "license": "ISC"
+}
