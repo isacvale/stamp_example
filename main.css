@@ -68,3 +68,11 @@ h1 + span {
 .characterLevel::before {
     content: 'lv: '
 }
+
+footer {
+    width: 50vw;
+    min-width: 260px;
+    color: grey;
+    margin: 4rem auto;
+    text-align: center;
+}
